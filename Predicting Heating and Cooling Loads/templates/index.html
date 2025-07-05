@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Energy Efficiency Prediction</title>
+</head>
+<body>
+    <h2>Enter Building Parameters</h2>
+    <form action="/predict" method="post">
+        <label>Relative Compactness:</label>
+        <input type="text" name="Relative_Compactness" required><br><br>
+
+        <label>Surface Area:</label>
+        <input type="text" name="Surface_Area" required><br><br>
+
+        <label>Wall Area:</label>
+        <input type="text" name="Wall_Area" required><br><br>
+
+        <label>Roof Area:</label>
+        <input type="text" name="Roof_Area" required><br><br>
+
+        <label>Overall Height:</label>
+        <input type="text" name="Overall_Height" required><br><br>
+
+        <label>Orientation (1–4):</label>
+        <input type="text" name="Orientation" required><br><br>
+
+        <label>Glazing Area (0–0.4):</label>
+        <input type="text" name="Glazing_Area" required><br><br>
+
+        <label>Glazing Area Distribution (0–5):</label>
+        <input type="text" name="Glazing_Area_Distribution" required><br><br>
+
+        <input type="submit" value="Predict Heating and Cooling Load">
+    </form>
+</body>
+</html>
